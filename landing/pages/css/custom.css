@@ -14,6 +14,9 @@ h6 {
   font-family: 'Comfortaa', cursive;
   color: #777777!important;
 }
+.header.dark {
+  background: #Fe491a!important;
+}
 .open-sans {
   font-family: 'Open-Sans', sans-serif;
 }
