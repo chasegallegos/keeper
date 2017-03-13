@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700');
+.jumbotron h1 {
+
+  }
+body {
+    color: #777777!important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Comfortaa', cursive;
+  color: #777777!important;
+}
+.open-sans {
+  font-family: 'Open-Sans', sans-serif;
+}
+.display-nope {
+  display: none!important;
+}
+.font-grey {
+  color: #777777!important;
+}
+.bg-light-grey {
+  background: #f1f1f1!important;
+}
+.keeper-red {
+  color:#Fe491a!important;
+}
+hr {
+  width:7%!important;
+  border:solid 2px #Fe491a!important;
+}
