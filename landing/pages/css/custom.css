@@ -17,6 +17,9 @@ h6 {
 .header.dark {
   background: #Fe491a!important;
 }
+.keeper-icons {
+  width:30%!important;
+}
 .open-sans {
   font-family: 'Open-Sans', sans-serif;
 }
