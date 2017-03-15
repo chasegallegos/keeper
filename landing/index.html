@@ -31,28 +31,27 @@
         var leadform = {
             api_url: 'https://jsonplaceholder.typicode.com/posts',
             classes: {
-              formgroup_wrapper: 'form-group form-group-default input-group m-t-40 bg-transparent b-a b-transparent-white',
+              form_wrapper: 'form-group form-group-default input-group m-t-40 bg-transparent b-a b-transparent-white',
               component_wrapper: '',
-              input_field: 'input-control',
+              button_wrapper: 'input-group-btn',
+              button_class: 'btn btn-white m-r-10 btn-cons',
+              title_class: '',
             },
             fields: [
-                { name: 'firstname', title: 'First Name', placeholder: 'Enter Your First Name', type: 'text', isRequired: false },
-                { name: 'email', title: 'Email', placeholder: 'Enter Your Email', type: 'email', isRequired: true }
+                { name: 'email', title: 'Email', placeholder: 'Enter Your Email', type: 'email', isRequired: true, className: 'form-control', inputWrapperClass:'' }
             ],
             info: {
-                bartitle: '',
-                title: '',
+                title: 'I Want a FREE 30-Minute Consultation!',
                 content: ''
             },
             thanks: {
                 title: 'Thanks for signing up!',
                 content: ''
-                + '<p>Please check your e-mail for activation link.</p>'
-                + '<p>You are now in the competition to win a 2000 USD gift certificate.</p>'
-                + '<p>The winner will be contacted on e-mail.</p>'
+                + '<p>Please check your e-mail for more detailed information about the event.</p>'
+                + '<p><strong>- Team Keeper -</strong></p>'
             },
             form: {
-                buttonText: 'Schedule Awesome Stuff'
+                buttonText: 'I Want More Bookings!'
             }
         }
     </script>
@@ -116,8 +115,8 @@
                       <hr>
                       <h4 class="light m-t-5 open-sans font-grey">Increase booking rate with more frequent, longer stays</h4>
                       <br>
-                      <h3 class="m-b-0 text-center">I want a FREE 30 Minute Consultation!</h3>
-                      <!--<div class="form-group form-group-default input-group m-t-10 bg-transparent b-a">
+                      <!--<h3 class="m-b-0 text-center">I want a FREE 30 Minute Consultation!</h3>
+                      <div class="form-group form-group-default input-group m-t-10 bg-transparent b-a">
                         <label>Email Address</label>
                         <input type="email" class="form-control" placeholder="Example@mailserver.com" style="">
                         <span class="input-group-btn">
