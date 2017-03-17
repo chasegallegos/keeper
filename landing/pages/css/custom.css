@@ -35,7 +35,21 @@ h6 {
 .keeper-red {
   color:#Fe491a!important;
 }
+.light-grey-btn {
+  background: #777777!important;
+  color: #ffffff!important;
+}
 hr {
   width:7%!important;
   border:solid 2px #Fe491a!important;
+}
+.form-group label:not(.error) {
+  text-align: left!important;
+
+}
+.form-group-default .form-control {
+
+}
+.padding-1 {
+  padding: 1%!important;
 }
