@@ -56,11 +56,19 @@ hr {
 .padding-1 {
   padding: 1%!important;
 }
+.header {
+
+}
+.header.minimized {
+  -webkit-box-shadow: 0 6px 4px -7px #777777;
+-moz-box-shadow: 0 6px 4px -7px #777777;
+box-shadow: 0 6px 4px -7px #777777;
+}
 @media (max-width: 500px) {
 
 .desktop-image {
   width:220px!important;
-  margin-top:-80px;
+  margin-top:65px;
 }
 .jumbotron h1 {
   font-size: 33px!important;
